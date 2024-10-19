@@ -1,0 +1,108 @@
+.main-content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8758FF;
+}
+
+.box {
+    width: 50%;
+    height: 60%;
+    background-color: #1E123B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.pesquisa {
+    width: 40%;
+    height: 10%;
+    border: 2px solid #FCFCFC;
+    border-radius: 5px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.modal {
+    width: 48%;
+    height: 55%;
+    border-radius: 10px;
+    background-color: #1E123B;
+    align-self: center;
+    margin-left: 26%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+}
+
+.titleModal {
+    color: white;
+}
+
+.inputModal {
+    width: 70%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid #FCFCFC;
+    color: white;
+    font-size: 17px;
+}
+
+.buttonModal {
+    width: 322px;
+    height: 64px;
+    border-radius: 10px;
+    border: 2px solid #FCFCFC;
+    background-color: #6C45CE;
+    margin-bottom: 56px;
+    font-weight: 700;
+    color: #FCFCFC;
+    font-size: 23px;
+}
+
+.buttonHome {
+    width: 13%;
+    height: 6%;
+    border-radius: 7px;
+    border: 2px solid #FCFCFC;
+    background-color: #6C45CE;
+    color: white;
+    font-size: 17.75px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-left: 35%;
+}
+
+.lista-tarefas {
+    height: 45%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.input-pesquisa {
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
